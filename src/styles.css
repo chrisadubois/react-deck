@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid;
+  display: flex;
+  width: 48px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.card-black {
+  color: black;
+}
+
+.card--top {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  margin: 3px;
+}
+
+.card--bottom {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  transform: rotate(-180deg);
+  margin: 3px;
+}
+
+.card-red {
+  color: red;
+}
+
+.card-value {
+  font-size: 14px;
+}
+
+.card-symbol {
+  font-size: 14px;
+}
+
+.deck {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
